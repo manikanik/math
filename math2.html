@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Equations with KaTeX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <link rel="stylesheet" href="math2.css">
+</head>
+<body>
+    <p class="a" id="aa"></p>
+    <p class="a" id="ab"></p>
+    <p class="a" id="ac"></p>
+    <p class="a" id="ad"></p>
+    <p class="a" id="ae"></p>
+    <p class="a" id="pa"></p>
+    <p class="a" id="pb"></p>
+    <p class="a" id="pc"></p>
+    <p class="a" id="pd"></p>
+    <p class="a" id="pe"></p>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" 
+            onload="renderMathInElement(document.body, {
+              delimiters: [
+                {left: '\\[', right: '\\]', display: true},
+                {left: '\\(', right: '\\)', display: false}
+              ]
+            })"></script>
+    
+    <script src="math2.js"></script>
+    <script src="math2.a.js"></script>
+</body>
+</html>
