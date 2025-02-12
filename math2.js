@@ -230,7 +230,7 @@ function ffb(){
     }
 
     ab.innerHTML = `\\(${tx1}${av1}${aop}${av2}${e}${ax1}${and}${av1}${av2}${e}${ax2};
-                       ${av1}^3${op}${av2}^3${e}? \\)<br>
+                       ${av1}^3${aop}${av2}^3${e}? \\)<br>
                     \\(${given} \\)<br>
                     \\(${av1}${aop}${av2}${e}${ax1}${and}${av1}${av2}${e}${ax2} \\)<br>
                     \\(${here} \\)<br>
@@ -264,11 +264,11 @@ function ffc(){
                     \\(${c}${av1}^2+${av2}^2${e}${axx1}${aopO}${2*ax2} \\)<br>
                     \\(${c}${av1}^2+${av2}^2${e}${axxx} \\)<br>
                     \\(${c}(${av1}^2+${av2}^2)^2${e}${axxx}^2 \\)<br>
-                    \\(${c}(${av1}^2)^2+(${av1}^2)^2+2.${av1}^2.${av2}^2${e}${axxx*axxx} \\)<br>
-                    \\(${c}${av1}^4+${av1}^4+2.(${av1}${av2})^2${e}${axxx*axxx} \\)<br>
-                    \\(${c}${av1}^4+${av1}^4+2.(${ax2})^2${e}${axxx*axxx} \\)<br>
-                    \\(${c}${av1}^4+${av1}^4${e}${axxx*axxx}-${2*ax2*ax2} \\)<br>
-                    \\(${d}${av1}^4+${av1}^4${e}${axxx*axxx - 2*ax2*ax2} \\)<br>
+                    \\(${c}(${av1}^2)^2+(${av2}^2)^2+2.${av1}^2.${av2}^2${e}${axxx*axxx} \\)<br>
+                    \\(${c}${av1}^4+${av2}^4+2.(${av1}${av2})^2${e}${axxx*axxx} \\)<br>
+                    \\(${c}${av1}^4+${av2}^4+2.(${ax2})^2${e}${axxx*axxx} \\)<br>
+                    \\(${c}${av1}^4+${av2}^4${e}${axxx*axxx}-${2*ax2*ax2} \\)<br>
+                    \\(${d}${av1}^4+${av2}^4${e}${axxx*axxx - 2*ax2*ax2} \\)<br>
                     `;
 }
 
@@ -287,7 +287,7 @@ function ffd(){
     }
 
     ad.innerHTML = `\\(${tx1}${av1}${aop}${av2}${e}${ax1}${and}${av1}${av2}${e}${ax2};
-                       ${av1}^5${op}${av2}^5${e}? \\)<br>
+                       ${av1}^5${aop}${av2}^5${e}? \\)<br>
                     \\(${given} \\)<br>
                     \\(${av1}${aop}${av2}${e}${ax1}${and}${av1}${av2}${e}${ax2} \\)<br>
                     \\(${here} \\)<br>
@@ -306,12 +306,12 @@ function ffd(){
                     \\(${c}${av1}^3${aop}${av2}^3${e}${ayyy} \\)<br>
                     \\(${now} \\)<br>
                     \\((${av1}^3${aop}${av2}^3)(${av1}^2+${av2}^2)${e}${ayyy}.${axxx} \\)<br>
-                    \\(${c}${av1}^5+${av1}^3.${av2}^2${op}${av1}^2.${av2}^3${op}${av2}^5${e}${ayyy*axxx} \\)<br>
-                    \\(${c}${av1}^5${op}${av2}^5+${av1}^2.${av2}^2(${av1}${aop}${av2})${e}${ayyy*axxx} \\)<br>
-                    \\(${c}${av1}^5${op}${av2}^5+(${av1}${av2})^2(${av1}${aop}${av2})${e}${ayyy*axxx} \\)<br>
-                    \\(${c}${av1}^5${op}${av2}^5+(${ax2})^2.(${ax1})${e}${ayyy*axxx} \\)<br>
-                    \\(${c}${av1}^5${op}${av2}^5${e}${ayyy*axxx}-${ax2*ax2*ax1} \\)<br>
-                    \\(${d}${av1}^5${op}${av2}^5${e}${ayyy*axxx-ax2*ax2*ax1} \\)<br>
+                    \\(${c}${av1}^5+${av1}^3.${av2}^2${aop}${av1}^2.${av2}^3${aop}${av2}^5${e}${ayyy*axxx} \\)<br>
+                    \\(${c}${av1}^5${aop}${av2}^5+${av1}^2.${av2}^2(${av1}${aop}${av2})${e}${ayyy*axxx} \\)<br>
+                    \\(${c}${av1}^5${aop}${av2}^5+(${av1}${av2})^2(${av1}${aop}${av2})${e}${ayyy*axxx} \\)<br>
+                    \\(${c}${av1}^5${aop}${av2}^5+(${ax2})^2.(${ax1})${e}${ayyy*axxx} \\)<br>
+                    \\(${c}${av1}^5${aop}${av2}^5${e}${ayyy*axxx}-${ax2*ax2*ax1} \\)<br>
+                    \\(${d}${av1}^5${aop}${av2}^5${e}${ayyy*axxx-ax2*ax2*ax1} \\)<br>
                     `;
 }
 
