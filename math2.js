@@ -199,7 +199,7 @@ function ffa(){
     let axx1 = ax1*ax1;
     let axxx = 0;
 
-    if(op === '+'){
+    if(aop === '+'){
         axxx = axx1 - 2*ax2;
     }else{
         axxx = axx1 + 2*ax2;
@@ -223,7 +223,7 @@ function ffb(){
     let axx1 = ax1*ax1*ax1;
     let axxx = 0;
 
-    if(op === '+'){
+    if(aop === '+'){
         axxx = axx1 - 3*ax1*ax2;
     }else{
         axxx = axx1 + 3*ax1*ax2;
@@ -246,7 +246,7 @@ function ffc(){
     let axx1 = ax1*ax1;
     let axxx = 0;
 
-    if(op === '+'){
+    if(aop === '+'){
         axxx = axx1 - 2*ax2;
     }else{
         axxx = axx1 + 2*ax2;
@@ -278,7 +278,7 @@ function ffd(){
     let axxx = 0;
     let ayyy = 0;
 
-    if(op === '+'){
+    if(aop === '+'){
         axxx = axx1 - 2*ax2;
         ayyy = ayy1 - 3*ax2*ax1;
     }else{
@@ -319,7 +319,7 @@ function ffe(){
     let axx1 = ax1*ax1;
     let axxx = 0;
 
-    if(op === '+'){
+    if(aop === '+'){
         axxx = axx1 - 2*ax2;
     }else{
         axxx = axx1 + 2*ax2;
